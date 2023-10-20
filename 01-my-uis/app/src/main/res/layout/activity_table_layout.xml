@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="4"
+    tools:context=".TableLayoutActivity">
+
+    <TableRow
+        android:background="#aaa">
+
+        <TextView
+            android:text="Cell (0,0)"
+            android:background="#eee"/>
+
+        <TextView
+            android:layout_column="2"
+            android:text="Cell (0,2)"
+            android:layout_height="100dp"
+            android:background="#eee"/>
+
+        <TextView
+            android:layout_column="4"
+            android:background="#eee"
+            android:text="Cell (0,4)" />
+    </TableRow>
+
+    <TableRow
+        android:background="#000">
+        <Space android:layout_height="20dp" android:layout_span="5"></Space>
+    </TableRow>
+
+    <TableRow
+        android:background="#eee">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_height="100dp"
+            android:background="#aaa"
+            android:text="Cell (2,1)" />
+
+        <TextView
+            android:layout_column="3"
+            android:background="#aaa"
+            android:text="Cell (2,3)" />
+    </TableRow>
+
+</TableLayout>

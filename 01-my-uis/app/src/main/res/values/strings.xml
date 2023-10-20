@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE resources [<!ENTITY appname "My UIs App">]>
+<resources>
+    <string name="app_name">&appname;</string>
+    <!-- <string name="linear_layout_activity_name">&appname; (LinearLayout)</string> -->
+    <string name="linear_layout_activity_name">LinearLayout</string>
+    <string name="another_linear_layout_activity_name">AnotherLinearLayout</string>
+    <string name="intent_action_show_ui">show-ui</string>
+    <string name="chooser_label">My Chooser</string>
+    <string name="element_text">item text</string>
+    <string name="twopane_layout_activity_name">TwoPane</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

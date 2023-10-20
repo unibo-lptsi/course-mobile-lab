@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_card_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardLayoutActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/activity_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/cardview_dark_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some text"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Some button" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/activity_card_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardElevation="50dp"
+        app:cardCornerRadius="50dp"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        app:cardBackgroundColor="@color/cardview_dark_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some text"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Some button" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

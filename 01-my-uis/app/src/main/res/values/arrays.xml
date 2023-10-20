@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="my_intents">
+        <item name="linear_layout">linear_layout</item>
+        <item name="table_layout">table_layout</item>
+        <item name="grid_layout">grid_layout</item>
+        <item name="twopane_layout">twopane_layout</item>
+        <item name="cardview_layout">cardview_layout</item>
+        <item name="widgets">widgets</item>
+    </array>
+    <string-array name="my_list_items">
+        <item>foo</item>
+        <item>BAR</item>
+        <item>siris</item>
+        <item>Hello World!</item>
+        <item>1277</item>
+        <item>This string\n has a line break\t and a tab.</item>
+        <item>This string is <b>stylised</b> <br /> via HTML.</item>
+    </string-array>
+</resources>

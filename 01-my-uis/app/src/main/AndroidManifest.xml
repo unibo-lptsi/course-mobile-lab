@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyUIs"
+        tools:targetApi="31"
+        android:enableOnBackInvokedCallback="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:label="@string/linear_layout_activity_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="show-ui" /> <!-- @string/intent_action_show_ui -->
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="linear_layout" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnotherLinearLayoutActivity"
+            android:label="@string/another_linear_layout_activity_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="show-ui" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="linear_layout" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TableLayoutActivity"
+            android:label="TableLayout"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="show-ui" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="table_layout" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GridLayoutActivity"
+            android:label="GridLayout"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="show-ui" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="grid_layout" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TwoPaneLayoutActivity"
+            android:label="@string/twopane_layout_activity_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="show-ui" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="twopane_layout" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CardLayoutActivity"
+            android:label="Card View"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="show-ui" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="cardview_layout" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WidgetsActivity"
+            android:label="Widgets"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="show-ui" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="widgets" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
