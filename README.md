@@ -63,7 +63,9 @@ Suggerimenti
             )
         }
 ```
-    - Nota: un ulteriore approccio (preferibile) sarebbe quello basato su [AssetManager](http://developer.android.com/reference/android/content/res/AssetManager.html)
+    
+- Nota: un ulteriore approccio (preferibile) sarebbe quello basato su [AssetManager](http://developer.android.com/reference/android/content/res/AssetManager.html)
+
 - Gestione degli [spinner](https://developer.android.com/develop/ui/views/components/spinner)
     - Gli spinner lavorano con oggetti [`adapter`](https://developer.android.com/reference/android/widget/Adapter)
 ```
@@ -71,7 +73,7 @@ Suggerimenti
         mySpinner = findViewById(R.id.my_spinner)
         val arrayAdapter = ArrayAdapter<String>(applicationContext, R.layout.text_view)
         arrayAdapter.addAll("abc", "foo", "bar")
-        intentSelector.adapter = arrayAdapter
+        mySpinner.adapter = arrayAdapter
 
 // res/layout/text_view.xml
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
