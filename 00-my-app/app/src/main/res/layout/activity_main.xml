@@ -22,7 +22,7 @@
         android:id="@+id/button_action"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send" />
+        android:text="Set Label" />
 
     <TextView
         android:id="@+id/text_output"

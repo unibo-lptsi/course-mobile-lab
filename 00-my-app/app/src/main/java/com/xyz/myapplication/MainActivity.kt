@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
         log("my activity's onCreate")
         setContentView(R.layout.activity_main)
 
-        actionButton = findViewById(R.id.button_action)
         textInput = findViewById(R.id.text_input)
+        actionButton = findViewById(R.id.button_action)
         textOutput = findViewById(R.id.text_output)
 
         actionButton.setOnClickListener {
@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
             intent.setComponent(ComponentName(this.applicationContext!!, AnotherActivity::class.java.name))
             intent.putExtra(AnotherActivity.Companion.TEXT_TO_SHOW, textInput.text.toString())
             intent.setFlags(Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
+
             try {
                 startActivityForResult(intent, REQ_CODE) // note: deprecated in favour of AndroidX Activity Result APIs
             } catch (e: ActivityNotFoundException) {
