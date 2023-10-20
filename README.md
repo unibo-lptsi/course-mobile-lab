@@ -47,3 +47,36 @@
     - Si faccia riferimento all'attributo `android:scaleType` di `ImageView`
 - Familiarizzare con il ciclo di vita delle activity implementando le callback `onCreate()`, `onDestroy()`, `onResume()`, e `onPause()`
 - Familiarizzare con il salvataggio/ripristino dello stato transiente tenendo traccia del `drawable` selezionato
+
+Suggerimenti
+
+- Gestione delle risorse drawable
+    - Impostare un'immagine dato un drawable: `ImageView#setImageDrawable(Drawable)`
+    - Recuperare un drawable (da un'activity): `getDrawable(R.id.<DRAWABLENAME>)`
+    - Ottenere gli ID dei drawable
+```
+        val imageListId = ArrayList<Int>()
+        val drawables: Array<java.lang.reflect.Field> = drawable::class.java.fields
+        for (f in drawables) {
+            imageListId.add(
+                resources.getIdentifier(f.getName(), "drawable", packageName)
+            )
+        }
+```
+    - Nota: un ulteriore approccio (preferibile) sarebbe quello basato su [AssetManager](http://developer.android.com/reference/android/content/res/AssetManager.html)
+- Gestione degli [spinner](https://developer.android.com/develop/ui/views/components/spinner)
+    - Gli spinner lavorano con oggetti [`adapter`](https://developer.android.com/reference/android/widget/Adapter)
+```
+// in an activity
+        mySpinner = findViewById(R.id.my_spinner)
+        val arrayAdapter = ArrayAdapter<String>(applicationContext, R.layout.text_view)
+        arrayAdapter.addAll("abc", "foo", "bar")
+        intentSelector.adapter = arrayAdapter
+
+// res/layout/text_view.xml
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/element_text">
+</TextView>
+```
