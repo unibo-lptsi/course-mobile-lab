@@ -54,7 +54,7 @@ Suggerimenti
     - Impostare un'immagine dato un drawable: `ImageView#setImageDrawable(Drawable)`
     - Recuperare un drawable (da un'activity): `getDrawable(R.id.<DRAWABLENAME>)`
     - Ottenere gli ID dei drawable
-```
+```kotlin
         val imageListId = ArrayList<Int>()
         val drawables: Array<java.lang.reflect.Field> = drawable::class.java.fields
         for (f in drawables) {
@@ -68,7 +68,7 @@ Suggerimenti
 
 - Gestione degli [spinner](https://developer.android.com/develop/ui/views/components/spinner)
     - Gli spinner lavorano con oggetti [`adapter`](https://developer.android.com/reference/android/widget/Adapter)
-```
+```kotlin
 // in an activity
         mySpinner = findViewById(R.id.my_spinner)
         val arrayAdapter = ArrayAdapter<String>(applicationContext, R.layout.text_view)
