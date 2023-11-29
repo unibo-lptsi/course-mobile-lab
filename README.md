@@ -2,6 +2,14 @@
 
 ## Esercitazioni
 
+### Exercitazione 4: ViewModel (e View Binding)
+
+**Obiettivo**: familiarizzare con il pattern ViewModel in Android, che consente di mantenere lo stato da visualizzare sulla UI anche a fronte di cambiamenti di configurazione
+
+- Seguire le istruzioni del CodeLab [Store data in ViewModel](https://developer.android.com/codelabs/basic-android-kotlin-training-viewmodel)
+- Partire dal codice fornito in [/codelab/android-basics-kotlin-unscramble-app-starter/](/codelab/android-basics-kotlin-unscramble-app-starter/), che essenzialmente è lo stesso dello [starter](https://github.com/google-developer-training/android-basics-kotlin-unscramble-app/tree/starter) con minimi aggiustamenti (e.g., alla build)
+- Nota: il progetto fa anche uso del *View Binding* (abilitato nella build Gradle del modulo) per accedere in modo conveniente ai controlli UI del frammento
+
 ### Esercitazione 3: layout e controlli grafici
 
 **Obiettivo**: familiarizzare con diverse tipologie di layout (`ViewGroup`) e componenti grafici
