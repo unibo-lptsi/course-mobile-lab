@@ -16,7 +16,7 @@
 6. Provare ad applicare il **Data Binding** per collegare gli elementi del viewmodel direttamente nel layout
     * Consultare il CodeLab [Data Binding in Android](https://developer.android.com/codelabs/android-databinding)
 7. Applicare la seguente modifica: quando l'utente "scrolla il cellulare", fare un riordino delle lettere della parola corrente. In altre parole, si chiede di implementare uno *shake detector* sfruttando l'accelerometro.
-    * Consultare la doc relativa all'[accelerometro](https://developer.android.com/develop/sensors-and-location/sensors/sensors_motion#sensors-motion-linear)
+    * Consultare la doc relativa all'[accelerometro](https://developer.android.com/develop/sensors-and-location/sensors/sensors_motion#sensors-motion-accel)
 
 ### Esercitazione 3: layout e controlli grafici
 
