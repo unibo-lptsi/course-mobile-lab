@@ -9,9 +9,9 @@
 1. Partire dal codice fornito in [/codelab/android-basics-kotlin-unscramble-app-starter/](/codelab/android-basics-kotlin-unscramble-app-starter/), che essenzialmente è lo stesso dello [starter](https://github.com/google-developer-training/android-basics-kotlin-unscramble-app/tree/starter) con minimi aggiustamenti (e.g., alla build)
 2. Nota: il progetto fa anche uso del **View Binding** (abilitato nella build Gradle del modulo) per accedere in modo conveniente ai controlli UI del frammento
     * Consultare la [documentazione sul view binding](https://developer.android.com/topic/libraries/view-binding)
-3. Introdurre un **Repository** per astrarre le possibili data source delle parole
+3. Seguire le istruzioni del CodeLab [Store data in ViewModel](https://developer.android.com/codelabs/basic-android-kotlin-training-viewmodel) per implementare un ViewModel
+4. Introdurre un **Repository** per astrarre le possibili data source delle parole
     * Consultare la [documentazione sul data layer](https://developer.android.com/topic/architecture#data-layer) e consultare il CodeLab [Repository Pattern](https://developer.android.com/codelabs/basic-android-kotlin-training-repository-pattern)
-4. Seguire le istruzioni del CodeLab [Store data in ViewModel](https://developer.android.com/codelabs/basic-android-kotlin-training-viewmodel) per implementare un ViewModel
 5. Provare a iniettare un repository nel viewmodel via **dependency injection con Hilt**
     * Consultare [documentazione su Hilt](https://developer.android.com/training/dependency-injection/hilt-android) e il CodeLab [Using Hilt in your Android app](https://developer.android.com/codelabs/android-hilt)
 6. Provare ad applicare il **Data Binding** per collegare gli elementi del viewmodel direttamente nel layout
