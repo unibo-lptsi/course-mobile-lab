@@ -10,7 +10,9 @@
 2. Nota: il progetto fa anche uso del **View Binding** (abilitato nella build Gradle del modulo) per accedere in modo conveniente ai controlli UI del frammento
 3. Introdurre un **Repository** per astrarre le possibili data source delle parole
     * Consultare il CodeLab [Repository Pattern](https://developer.android.com/codelabs/basic-android-kotlin-training-repository-pattern)
-4. Seguire le istruzioni del CodeLab [Store data in ViewModel](https://developer.android.com/codelabs/basic-android-kotlin-training-viewmodel)
+4. Seguire le istruzioni del CodeLab [Store data in ViewModel](https://developer.android.com/codelabs/basic-android-kotlin-training-viewmodel) per implementare un ViewModel
+5. Provare a iniettare un repository nel viewmodel via dependency injection con Hilt
+    * Consultare il CodeLab [Using Hilt in your Android app](https://developer.android.com/codelabs/android-hilt)
 
 ### Esercitazione 3: layout e controlli grafici
 
