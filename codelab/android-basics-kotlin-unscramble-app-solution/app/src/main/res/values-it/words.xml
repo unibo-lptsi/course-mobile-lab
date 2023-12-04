@@ -1,0 +1,28 @@
+<resources>
+    <string-array name="words">
+        <item>automobile</item>
+        <item>aneddoto</item>
+        <item>alfabeto</item>
+        <item>alzare</item>
+        <item>meraviglioso</item>
+        <item>cesto</item>
+        <item>migliore</item>
+        <item>libro</item>
+        <item>sedia</item>
+        <item>bambola</item>
+        <item>uovo</item>
+        <item>fallimento</item>
+        <item>google</item>
+        <item>capelli</item>
+        <item>bagaglio</item>
+        <item>mentalità</item>
+        <item>nutrice</item>
+        <item>obbligo</item>
+        <item>parcheggio</item>
+        <item>quark</item>
+        <item>rasoio</item>
+        <item>strada</item>
+        <item>tronco</item>
+        <item>occhiolino</item>
+    </string-array>
+</resources>

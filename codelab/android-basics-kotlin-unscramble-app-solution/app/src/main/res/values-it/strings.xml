@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unscramble</string>
+    <string name="instructions">Riordina le lettere.</string>
+    <string name="skip">Salta</string>
+    <string name="submit">Invia</string>
+    <string name="score">Punteggio: %d</string>
+    <string name="word_count">%d su %d parole</string>
+    <string name="enter_your_word">Scrivi la parola</string>
+    <string name="congratulations">Congratulazioni!</string>
+    <string name="you_scored">"Hai totalizzato: %d"</string>
+    <string name="exit">Esci</string>
+    <string name="play_again">Gioca ancora</string>
+    <string name="try_again">Ritenta!</string>
+    <string name="bad_attempt">Tentativo scorretto!</string>
+    <string name="score_msg">Il tuo punteggio è %d/%d.</string>
+    <string name="score_dialog_title">Punteggio Finale</string>
+</resources>

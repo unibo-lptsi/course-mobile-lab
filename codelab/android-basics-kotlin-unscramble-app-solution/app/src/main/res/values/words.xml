@@ -1,0 +1,28 @@
+<resources>
+    <string-array name="words">
+        <item>auto</item>
+        <item>anecdote</item>
+        <item>alphabet</item>
+        <item>arise</item>
+        <item>awesome</item>
+        <item>basket</item>
+        <item>best</item>
+        <item>book</item>
+        <item>chair</item>
+        <item>doll</item>
+        <item>egg</item>
+        <item>failure</item>
+        <item>google</item>
+        <item>hair</item>
+        <item>luggage</item>
+        <item>mindset</item>
+        <item>nurse</item>
+        <item>obligation</item>
+        <item>park</item>
+        <item>quark</item>
+        <item>razorblade</item>
+        <item>street</item>
+        <item>trunk</item>
+        <item>wink</item>
+    </string-array>
+</resources>
